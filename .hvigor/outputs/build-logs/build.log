@@ -1,0 +1,1147 @@
+[2025-02-09T16:55:44.371] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-02-09T16:55:44.414] [DEBUG] debug-file - env: daemon=true
+[2025-02-09T16:55:45.099] [DEBUG] debug-file - java daemon tryConnect success
+[2025-02-09T16:55:45.110] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [ 'product=default' ],
+  sync: true,
+  parallel: true,
+  incremental: true,
+  daemon: true,
+  _: [ '--analyze=normal' ]
+}
+[2025-02-09T16:55:44.374] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2025-02-09T16:55:45.139] [DEBUG] debug-file - session manager: set active socket. socketId=v8oWVGDxC941DMvhAAAB
+[2025-02-09T16:55:45.886] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-02-09T16:55:45.909] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-02-09T16:55:45.910] [DEBUG] debug-file - Since current hvigor version 5.5.2 differs from last hvigor version 
+      undefined, delete file-cache.json and task-cache.json.
+[2025-02-09T16:55:45.911] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2025-02-09T16:55:45.925] [DEBUG] debug-file - hvigorfile, resolving /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/hvigorfile.ts
+[2025-02-09T16:55:47.924] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-02-09T16:55:47.925] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-02-09T16:55:48.278] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-02-09T16:55:48.279] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-02-09T16:55:48.281] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-02-09T16:55:48.281] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-02-09T16:55:48.289] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true
+  }
+} in this build.
+[2025-02-09T16:55:48.327] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2025-02-09T16:55:48.335] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2025-02-09T16:55:48.351] [DEBUG] debug-file - Sdk init in 27 ms 
+[2025-02-09T16:55:48.389] [DEBUG] debug-file - Project task initialization takes 33 ms 
+[2025-02-09T16:55:48.390] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-02-09T16:55:48.390] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/hvigorfile.ts
+[2025-02-09T16:55:48.390] [DEBUG] debug-file - hvigorfile, resolve finished /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/hvigorfile.ts
+[2025-02-09T16:55:48.406] [DEBUG] debug-file - hvigorfile, resolving /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/hvigorfile.ts
+[2025-02-09T16:55:48.414] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-02-09T16:55:48.414] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-02-09T16:55:48.429] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-02-09T16:55:48.430] [DEBUG] debug-file - Target 'default' config: {}
+[2025-02-09T16:55:48.431] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-02-09T16:55:48.432] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "debug"
+}
+[2025-02-09T16:55:48.433] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "default"
+}
+[2025-02-09T16:55:48.433] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-02-09T16:55:48.433] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "debug"
+} in this build.
+[2025-02-09T16:55:48.441] [DEBUG] debug-file - Module entry task initialization takes 4 ms 
+[2025-02-09T16:55:48.441] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-02-09T16:55:48.441] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/hvigorfile.ts
+[2025-02-09T16:55:48.441] [DEBUG] debug-file - hvigorfile, resolve finished /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/hvigorfile.ts
+[2025-02-09T16:55:48.524] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 81 ms 
+[2025-02-09T16:55:48.525] [DEBUG] debug-file - project has submodules:entry
+[2025-02-09T16:55:48.526] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-02-09T16:55:48.529] [DEBUG] debug-file - load to the disk finished
+[2025-02-09T16:55:48.530] [DEBUG] debug-file - Module HarmonyOS Collected Dependency: 
+[2025-02-09T16:55:48.530] [DEBUG] debug-file - Module HarmonyOS's total dependency: 0
+[2025-02-09T16:55:48.533] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-02-09T16:55:48.533] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-02-09T16:55:48.538] [DEBUG] debug-file - Configuration phase cost:2 s 622 ms 
+[2025-02-09T16:55:48.542] [DEBUG] debug-file - Configuration task cost before running: 2 s 651 ms 
+[2025-02-09T16:55:48.543] [DEBUG] debug-file - Executing task :entry:clean
+[2025-02-09T16:55:48.544] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2025-02-09T16:55:48.771] [DEBUG] debug-file - entry : clean cost memory 4.2485504150390625
+[2025-02-09T16:55:48.771] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 880 ms 
+[2025-02-09T16:55:48.772] [INFO] debug-file - Finished :entry:clean... after 228 ms 
+[2025-02-09T16:55:48.772] [DEBUG] debug-file - Executing task ::clean
+[2025-02-09T16:55:48.772] [DEBUG] debug-file - clean: Worker pool is inactive.
+[2025-02-09T16:55:48.773] [DEBUG] debug-file - HarmonyOS : clean cost memory 0.03458404541015625
+[2025-02-09T16:55:48.773] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 882 ms 
+[2025-02-09T16:55:48.773] [INFO] debug-file - Finished ::clean... after 1 ms 
+[2025-02-09T16:55:48.773] [DEBUG] debug-file - Executing task :entry:init
+[2025-02-09T16:55:48.774] [DEBUG] debug-file - entry : init cost memory 0.01390838623046875
+[2025-02-09T16:55:48.774] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 884 ms 
+[2025-02-09T16:55:48.774] [INFO] debug-file - Finished :entry:init... after 1 ms 
+[2025-02-09T16:55:48.774] [DEBUG] debug-file - Executing task ::init
+[2025-02-09T16:55:48.775] [DEBUG] debug-file - HarmonyOS : init cost memory 0.01275634765625
+[2025-02-09T16:55:48.775] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 884 ms 
+[2025-02-09T16:55:48.775] [INFO] debug-file - Finished ::init... after 1 ms 
+[2025-02-09T16:55:48.786] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "debug"
+} in this build.
+[2025-02-09T16:55:48.789] [DEBUG] debug-file - Module 'entry' target 'ohosTest' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "default"
+} in this build.
+[2025-02-09T16:55:48.794] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-02-09T16:55:48.794] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-02-09T16:55:48.796] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-02-09T16:55:48.800] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-02-09T16:55:48.804] [DEBUG] debug-file - Cleanup worker 0.
+[2025-02-09T16:55:48.805] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2025-02-09T16:55:48.805] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-02-09T16:55:48.805] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-02-09T16:55:48.805] [DEBUG] debug-file - Cleanup worker 1.
+[2025-02-09T16:55:48.805] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2025-02-09T16:55:48.805] [DEBUG] debug-file - Current idle worker size: 0.
+[2025-02-09T16:55:48.805] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-02-09T16:55:48.806] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-02-09T16:55:48.979] [DEBUG] debug-file - worker[0] exits with exit code 0.
+[2025-02-09T16:55:48.979] [DEBUG] debug-file - worker[1] exits with exit code 0.
+[2025-02-09T16:55:49.009] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-09T16:55:49.010] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-09T16:55:49.010] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-02-09T16:55:49.010] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-02-09T16:55:51.953] [DEBUG] debug-file - session manager: set active socket. socketId=NuXBxDSf95Zm6ZpJAAAD
+[2025-02-09T16:55:51.958] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-02-09T16:55:51.985] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-02-09T16:55:51.987] [DEBUG] debug-file - Cache service initialization finished in 2 ms 
+[2025-02-09T16:55:52.009] [DEBUG] debug-file - hvigorfile, resolving /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/hvigorfile.ts
+[2025-02-09T16:55:52.020] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-02-09T16:55:52.020] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-02-09T16:55:52.032] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-02-09T16:55:52.032] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-02-09T16:55:52.032] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-02-09T16:55:52.033] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-02-09T16:55:52.034] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true
+  }
+} in this build.
+[2025-02-09T16:55:52.064] [DEBUG] debug-file - Sdk init in 18 ms 
+[2025-02-09T16:55:52.114] [DEBUG] debug-file - Project task initialization takes 47 ms 
+[2025-02-09T16:55:52.114] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-02-09T16:55:52.114] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/hvigorfile.ts
+[2025-02-09T16:55:52.114] [DEBUG] debug-file - hvigorfile, resolve finished /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/hvigorfile.ts
+[2025-02-09T16:55:52.136] [DEBUG] debug-file - hvigorfile, resolving /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/hvigorfile.ts
+[2025-02-09T16:55:52.142] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-02-09T16:55:52.143] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-02-09T16:55:52.152] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-02-09T16:55:52.152] [DEBUG] debug-file - Target 'default' config: {}
+[2025-02-09T16:55:52.153] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-02-09T16:55:52.153] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "debug"
+}
+[2025-02-09T16:55:52.154] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "default"
+}
+[2025-02-09T16:55:52.154] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-02-09T16:55:52.154] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "debug"
+} in this build.
+[2025-02-09T16:55:52.158] [DEBUG] debug-file - Module entry task initialization takes 2 ms 
+[2025-02-09T16:55:52.158] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-02-09T16:55:52.158] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/hvigorfile.ts
+[2025-02-09T16:55:52.159] [DEBUG] debug-file - hvigorfile, resolve finished /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/hvigorfile.ts
+[2025-02-09T16:55:52.301] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 140 ms 
+[2025-02-09T16:55:52.303] [DEBUG] debug-file - project has submodules:entry
+[2025-02-09T16:55:52.305] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-02-09T16:55:52.313] [DEBUG] debug-file - load to the disk finished
+[2025-02-09T16:55:52.313] [DEBUG] debug-file - Module HarmonyOS Collected Dependency: 
+[2025-02-09T16:55:52.314] [DEBUG] debug-file - Module HarmonyOS's total dependency: 0
+[2025-02-09T16:55:52.315] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-02-09T16:55:52.316] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-02-09T16:55:52.319] [DEBUG] debug-file - Configuration phase cost:323 ms 
+[2025-02-09T16:55:52.322] [DEBUG] debug-file - Configuration task cost before running: 361 ms 
+[2025-02-09T16:55:52.326] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:55:52.326] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:55:52.333] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2025-02-09T16:55:52.621] [DEBUG] debug-file - current product is not Atomic service.
+[2025-02-09T16:55:52.623] [DEBUG] debug-file - Use tool [darwin: JAVA_HOME, CLASSPATH]
+ [
+  {
+    JAVA_HOME: '/Applications/DevEco-Studio.app/Contents/jbr/Contents/Home'
+  },
+  { CLASSPATH: undefined }
+]
+[2025-02-09T16:55:52.623] [DEBUG] debug-file - Use tool [darwin: NODE_HOME]
+ [
+  {
+    NODE_HOME: '/Applications/DevEco-Studio.app/Contents/tools/node/bin'
+  }
+]
+[2025-02-09T16:55:52.624] [DEBUG] debug-file - entry : default@PreBuild cost memory 3.6326828002929688
+[2025-02-09T16:55:52.624] [DEBUG] debug-file - runTaskFromQueue task cost before running: 663 ms 
+[2025-02-09T16:55:52.625] [INFO] debug-file - Finished :entry:default@PreBuild... after 291 ms 
+[2025-02-09T16:55:52.628] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:55:52.628] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:55:52.631] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2025-02-09T16:55:52.637] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.12239837646484375
+[2025-02-09T16:55:52.637] [DEBUG] debug-file - runTaskFromQueue task cost before running: 675 ms 
+[2025-02-09T16:55:52.638] [INFO] debug-file - Finished :entry:default@GenerateMetadata... after 7 ms 
+[2025-02-09T16:55:52.641] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:55:52.643] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:55:52.644] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2025-02-09T16:55:52.644] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.01324462890625
+[2025-02-09T16:55:52.644] [DEBUG] debug-file - runTaskFromQueue task cost before running: 683 ms 
+[2025-02-09T16:55:52.644] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 1 ms 
+[2025-02-09T16:55:52.650] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:55:52.651] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:55:52.652] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2025-02-09T16:55:52.653] [DEBUG] debug-file - Change app api release type with 'Beta6'
+[2025-02-09T16:55:52.654] [DEBUG] debug-file - Change app compile API version with '5.0.0.61'
+[2025-02-09T16:55:52.654] [DEBUG] debug-file - Change app target API version with '50000012'
+[2025-02-09T16:55:52.654] [DEBUG] debug-file - Change app minimum API version with '50000012'
+[2025-02-09T16:55:52.654] [DEBUG] debug-file - Use cli appEnvironment
+[2025-02-09T16:55:52.657] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.1289215087890625
+[2025-02-09T16:55:52.657] [DEBUG] debug-file - runTaskFromQueue task cost before running: 696 ms 
+[2025-02-09T16:55:52.657] [INFO] debug-file - Finished :entry:default@MergeProfile... after 6 ms 
+[2025-02-09T16:55:52.660] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:55:52.660] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:55:52.662] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2025-02-09T16:55:52.668] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.07802581787109375
+[2025-02-09T16:55:52.668] [DEBUG] debug-file - runTaskFromQueue task cost before running: 707 ms 
+[2025-02-09T16:55:52.669] [INFO] debug-file - Finished :entry:default@CreateBuildProfile... after 6 ms 
+[2025-02-09T16:55:52.673] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:55:52.673] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:55:52.675] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2025-02-09T16:55:52.675] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.01340484619140625
+[2025-02-09T16:55:52.675] [DEBUG] debug-file - runTaskFromQueue task cost before running: 714 ms 
+[2025-02-09T16:55:52.675] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2025-02-09T16:55:52.678] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:55:52.678] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:55:52.699] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2025-02-09T16:55:52.700] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.02085113525390625
+[2025-02-09T16:55:52.701] [DEBUG] debug-file - runTaskFromQueue task cost before running: 739 ms 
+[2025-02-09T16:55:52.701] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 2 ms 
+[2025-02-09T16:55:52.704] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:55:52.704] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:55:52.708] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2025-02-09T16:55:52.710] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.047515869140625
+[2025-02-09T16:55:52.710] [DEBUG] debug-file - runTaskFromQueue task cost before running: 749 ms 
+[2025-02-09T16:55:52.711] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 3 ms 
+[2025-02-09T16:55:52.716] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:55:52.716] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:55:52.717] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2025-02-09T16:55:52.718] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.01485443115234375
+[2025-02-09T16:55:52.718] [DEBUG] debug-file - runTaskFromQueue task cost before running: 757 ms 
+[2025-02-09T16:55:52.718] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2025-02-09T16:55:52.721] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:55:52.722] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:55:52.723] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2025-02-09T16:55:52.728] [DEBUG] debug-file - Module Pack Info:  {
+  summary: {
+    app: {
+      bundleName: 'com.dandelion.wxchat',
+      bundleType: 'app',
+      version: [Object]
+    },
+    modules: [ [Object] ]
+  },
+  packages: [
+    {
+      deviceType: [Array],
+      moduleType: 'entry',
+      deliveryWithInstall: true,
+      name: 'entry-default'
+    }
+  ]
+}
+[2025-02-09T16:55:52.731] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.1258697509765625
+[2025-02-09T16:55:52.731] [DEBUG] debug-file - runTaskFromQueue task cost before running: 770 ms 
+[2025-02-09T16:55:52.733] [INFO] debug-file - Finished :entry:default@MakePackInfo... after 9 ms 
+[2025-02-09T16:55:52.735] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:55:52.735] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:55:52.736] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2025-02-09T16:55:52.739] [DEBUG] debug-file - [
+  '/Applications/DevEco-Studio.app/Contents/tools/node/bin/node',
+  '/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB6/openharmony/ets/build-tools/ets-loader/bin/ark/ts2abc.js',
+  '--target-api-version',
+  '12',
+  '--target-api-sub-version',
+  'beta1'
+]
+[2025-02-09T16:55:52.959] [DEBUG] debug-file - 12.0.2.0
+[2025-02-09T16:55:52.960] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.20204925537109375
+[2025-02-09T16:55:52.960] [DEBUG] debug-file - runTaskFromQueue task cost before running: 999 ms 
+[2025-02-09T16:55:52.960] [INFO] debug-file - Finished :entry:default@ProcessProfile... after 224 ms 
+[2025-02-09T16:55:52.963] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:55:52.964] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:55:52.966] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2025-02-09T16:55:52.967] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.02635955810546875
+[2025-02-09T16:55:52.967] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 6 ms 
+[2025-02-09T16:55:52.967] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 1 ms 
+[2025-02-09T16:55:52.970] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:55:52.970] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:55:52.972] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2025-02-09T16:55:52.976] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.08206939697265625
+[2025-02-09T16:55:52.976] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 15 ms 
+[2025-02-09T16:55:52.977] [INFO] debug-file - Finished :entry:default@ProcessRouterMap... after 4 ms 
+[2025-02-09T16:55:52.982] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:55:52.982] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:55:52.983] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2025-02-09T16:55:52.984] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.0347442626953125
+[2025-02-09T16:55:52.985] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 23 ms 
+[2025-02-09T16:55:52.985] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 2 ms 
+[2025-02-09T16:55:52.987] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:55:52.987] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:55:52.988] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2025-02-09T16:55:52.992] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2025-02-09T16:55:52.994] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.08475494384765625
+[2025-02-09T16:55:52.997] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 36 ms 
+[2025-02-09T16:55:52.999] [INFO] debug-file - Finished :entry:default@ProcessResource... after 5 ms 
+[2025-02-09T16:55:53.002] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:55:53.002] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:55:53.009] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2025-02-09T16:55:53.031] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.41608428955078125
+[2025-02-09T16:55:53.032] [DEBUG] debug-file - runTaskFromQueue task cost before running: 1 s 71 ms 
+[2025-02-09T16:55:53.037] [INFO] debug-file - Finished :entry:default@GenerateLoaderJson... after 24 ms 
+[2025-02-09T16:55:53.040] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:55:53.040] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:55:53.043] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2025-02-09T16:55:53.050] [DEBUG] debug-file - default@ProcessLibs work[0] is submitted.
+[2025-02-09T16:55:53.052] [DEBUG] debug-file - default@ProcessLibs work[0] is pushed to ready queue.
+[2025-02-09T16:55:53.052] [DEBUG] debug-file - default@ProcessLibs work[0] is not dispatched.
+[2025-02-09T16:55:53.053] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.32616424560546875
+[2025-02-09T16:55:53.057] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:55:53.057] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:55:53.058] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2025-02-09T16:55:53.063] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2025-02-09T16:55:53.125] [DEBUG] debug-file - Use tool [/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB6/openharmony/toolchains/restool]
+ [
+  '/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB6/openharmony/toolchains/restool',
+  '-l',
+  '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/resConfig.json'
+]
+[2025-02-09T16:55:53.128] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 218750976,
+  heapTotal: 149921792,
+  heapUsed: 119040080,
+  external: 1568132,
+  arrayBuffers: 891449
+} os memoryUsage :15.969493865966797
+[2025-02-09T16:55:53.354] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2025-02-09T16:55:53.355] [DEBUG] debug-file - Create  resident worker with id: 6.
+[2025-02-09T16:55:53.357] [DEBUG] debug-file - default@ProcessLibs work[0] has been dispatched to worker[6].
+[2025-02-09T16:55:55.588] [DEBUG] debug-file - Warning: /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/resources/base/media/layered_image.json is not png format
+
+[2025-02-09T16:55:55.591] [DEBUG] debug-file - Info: restool resources compile success.
+
+[2025-02-09T16:55:55.600] [DEBUG] debug-file - entry : default@CompileResource cost memory -39.084373474121094
+[2025-02-09T16:55:55.601] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 639 ms 
+[2025-02-09T16:55:55.602] [INFO] debug-file - Finished :entry:default@CompileResource... after 2 s 539 ms 
+[2025-02-09T16:55:55.605] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:55:55.605] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:55:55.612] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2025-02-09T16:55:55.636] [DEBUG] debug-file - build config:
+[2025-02-09T16:55:55.636] [DEBUG] debug-file - {
+  moduleType: 'entry',
+  perf: 0,
+  targetName: '.default',
+  packageManagerType: 'ohpm',
+  localPropertiesPath: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/local.properties',
+  isPreview: false,
+  isOhosTest: false,
+  isLocalTest: false,
+  buildMode: 'Debug',
+  watchMode: 'false',
+  aceProfilePath: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/resources/base/profile',
+  etsLoaderPath: '/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB6/openharmony/ets/build-tools/ets-loader',
+  modulePath: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry',
+  testFrameworkPar: {
+    testMode: undefined,
+    coveragePathFilter: undefined,
+    coverageMode: undefined
+  },
+  needCoverageInsert: false,
+  debugLine: false,
+  projectTopDir: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS',
+  compileSdkVersion: 12,
+  compatibleSdkVersion: 12,
+  compatibleSdkVersionStage: 'beta1',
+  bundleName: 'com.dandelion.wxchat',
+  etsLoaderVersion: '5.0.0.61',
+  etsLoaderReleaseType: 'Beta6',
+  aotCompileMode: 'type',
+  apPath: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/modules.ap',
+  entryModuleName: 'entry',
+  entryModuleVersion: '1.0.0',
+  entryPackageName: 'entry',
+  allModuleNameHash: '5b2c96dfbe9edfbbb005178720013dda',
+  externalApiPaths: [
+    '/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB6/hms/ets'
+  ],
+  compilerTypes: undefined,
+  isCrossplatform: false,
+  hvigorPluginFile: undefined,
+  compilePluginPath: undefined,
+  buildGeneratedProfilePath: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/generated/profile/default',
+  bundleType: 'app',
+  arkTSVersion: undefined,
+  apiVersion: 12,
+  needCompleteSourcesMap: false,
+  isFaMode: false,
+  strictMode: { caseSensitiveCheck: true },
+  buildDir: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build',
+  deviceTypes: [ 'phone', 'tablet', '2in1' ],
+  useNormalizedOHMUrl: false,
+  pkgContextInfo: undefined,
+  ohPackagePathMap: {},
+  dependencyAliasMap: {},
+  permission: { requestPermissions: undefined, definePermissions: undefined },
+  integratedHsp: false,
+  projectArkOption: undefined,
+  sourceMapDir: undefined,
+  branchElimination: false,
+  transformLib: undefined,
+  caseSensitiveCheck: true,
+  tsImportSendable: false,
+  resolveConflictMode: true,
+  depName2RootPath: {},
+  rootPathSet: [ '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS' ],
+  aceModuleJsonPath: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/module.json',
+  appResource: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/ResourceTable.txt',
+  rawFileResource: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/resources/rawfile',
+  resourceTableHash: 'd8b0c71e5204083888656ed9fdf6345c',
+  runtimeOS: 'HarmonyOS',
+  sdkInfo: 'false:12:5.0.0.61:Beta6',
+  aceModuleRoot: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/ets',
+  compileMode: 'esmodule',
+  aceSuperVisualPath: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/supervisual',
+  aceBuildJson: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/loader/default/loader.json',
+  cachePath: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/cache/default/default@CompileArkTS/esmodule/debug',
+  aceModuleBuild: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/loader_out/default/ets',
+  supportChunks: true,
+  pkgNameToPkgBriefInfo: {
+    entry: {
+      pkgRoot: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry',
+      originalSourceRoots: undefined,
+      sourceRoots: [Array],
+      pkgName: 'entry'
+    }
+  },
+  projectModel: {
+    '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main': {
+      moduleName: 'entry',
+      modulePkgPath: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry',
+      belongProjectPath: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS'
+    },
+    '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/src/ohosTest/ets': {
+      moduleName: 'entry_test',
+      modulePkgPath: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry',
+      belongProjectPath: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS'
+    },
+    '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/ohosTest': {
+      moduleName: 'entry_test',
+      modulePkgPath: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry',
+      belongProjectPath: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS'
+    },
+    '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry': {
+      moduleName: 'entry',
+      modulePkgPath: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry',
+      belongProjectPath: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS'
+    },
+    '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS': {
+      moduleName: 'HarmonyOS',
+      modulePkgPath: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS',
+      belongProjectPath: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS'
+    }
+  },
+  pkgJsonFileHash: '283ae0ea4686aa01c63bb9f5fdb0d131',
+  allModulePaths: [ '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry' ],
+  routerMap: {},
+  obfuscationOptions: undefined,
+  compileBlockPkg: [],
+  overallProjectPaths: [ '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS' ],
+  mockParams: {
+    decorator: '@MockSetup',
+    packageName: '@ohos/hamock',
+    etsSourceRootPath: 'src/main/ets',
+    mockConfigPath: '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/mock/mock-config.json5',
+    mockConfigKey2ModuleInfo: {}
+  },
+  otherPaths: {
+    'entry/*': [ '../*', '../../../build/default/generated/profile/default/*' ]
+  },
+  collectImportersConfig: undefined
+}
+[2025-02-09T16:55:55.637] [DEBUG] debug-file - Compile arkts with external api path: /Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB6/hms/ets
+[2025-02-09T16:55:55.639] [DEBUG] debug-file - default@CompileArkTS work[1] is submitted.
+[2025-02-09T16:55:55.640] [DEBUG] debug-file - default@CompileArkTS work[1] is pushed to ready queue.
+[2025-02-09T16:55:55.640] [DEBUG] debug-file - default@CompileArkTS work[1] is not dispatched.
+[2025-02-09T16:55:55.641] [DEBUG] debug-file - CopyResources startTime: 1272061669549362
+[2025-02-09T16:55:55.641] [DEBUG] debug-file - default@CompileArkTS work[2] is submitted.
+[2025-02-09T16:55:55.642] [DEBUG] debug-file - default@CompileArkTS work[2] is pushed to ready queue.
+[2025-02-09T16:55:55.643] [DEBUG] debug-file - default@CompileArkTS work[2] is not dispatched.
+[2025-02-09T16:55:55.643] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 0.11336517333984375
+[2025-02-09T16:55:55.648] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:55:55.648] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:55:55.653] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2025-02-09T16:55:55.655] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.115814208984375
+[2025-02-09T16:55:55.655] [DEBUG] debug-file - runTaskFromQueue task cost before running: 3 s 694 ms 
+[2025-02-09T16:55:55.656] [INFO] debug-file - Finished :entry:default@BuildJS... after 3 ms 
+[2025-02-09T16:55:55.656] [DEBUG] debug-file - worker[6] has one work done.
+[2025-02-09T16:55:55.657] [DEBUG] debug-file - default@ProcessLibs work[0] done.
+[2025-02-09T16:55:55.659] [INFO] debug-file - Finished :entry:default@ProcessLibs... after 2 s 311 ms 
+[2025-02-09T16:55:55.664] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:55:55.664] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:55:55.667] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2025-02-09T16:55:55.669] [DEBUG] debug-file - default@DoNativeStrip work[3] is submitted.
+[2025-02-09T16:55:55.670] [DEBUG] debug-file - default@DoNativeStrip work[3] is pushed to ready queue.
+[2025-02-09T16:55:55.671] [DEBUG] debug-file - default@DoNativeStrip work[3] is not dispatched.
+[2025-02-09T16:55:55.671] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.13172149658203125
+[2025-02-09T16:55:55.743] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2025-02-09T16:55:55.745] [DEBUG] debug-file - default@CompileArkTS work[2] has been dispatched to worker[6].
+[2025-02-09T16:55:55.808] [DEBUG] debug-file - worker[6] has one work done.
+[2025-02-09T16:55:55.808] [DEBUG] debug-file - CopyResources is end, endTime: 1272061837320147
+[2025-02-09T16:55:55.808] [DEBUG] debug-file - default@CompileArkTS work[2] done.
+[2025-02-09T16:55:55.873] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2025-02-09T16:55:55.873] [DEBUG] debug-file - default@DoNativeStrip work[3] has been dispatched to worker[6].
+[2025-02-09T16:55:55.898] [DEBUG] debug-file - worker[6] has one work done.
+[2025-02-09T16:55:55.899] [DEBUG] debug-file - default@DoNativeStrip work[3] done.
+[2025-02-09T16:55:55.899] [INFO] debug-file - Finished :entry:default@DoNativeStrip... after 30 ms 
+[2025-02-09T16:55:55.902] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:55:55.902] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:55:55.905] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2025-02-09T16:55:55.906] [DEBUG] debug-file - default@CacheNativeLibs work[4] is submitted.
+[2025-02-09T16:55:55.908] [DEBUG] debug-file - default@CacheNativeLibs work[4] is pushed to ready queue.
+[2025-02-09T16:55:55.908] [DEBUG] debug-file - default@CacheNativeLibs work[4] is not dispatched.
+[2025-02-09T16:55:55.908] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory -0.705718994140625
+[2025-02-09T16:55:55.999] [DEBUG] debug-file - default@CacheNativeLibs work[4] has been dispatched to worker[6].
+[2025-02-09T16:55:56.110] [DEBUG] debug-file - A work dispatched to worker[6] failed because of worker busy.
+[2025-02-09T16:55:56.311] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2025-02-09T16:55:56.312] [DEBUG] debug-file - A work dispatched to worker[6] failed because of worker busy.
+[2025-02-09T16:55:56.312] [DEBUG] debug-file - A work dispatched to worker[5] failed because unable to get work from ready queue.
+[2025-02-09T16:55:56.313] [DEBUG] debug-file - A work dispatched to worker[4] failed because unable to get work from ready queue.
+[2025-02-09T16:55:56.313] [DEBUG] debug-file - A work dispatched to worker[3] failed because unable to get work from ready queue.
+[2025-02-09T16:55:56.313] [DEBUG] debug-file - A work dispatched to worker[2] failed because unable to get work from ready queue.
+[2025-02-09T16:55:56.313] [DEBUG] debug-file - A work dispatched to worker[1] failed because unable to get work from ready queue.
+[2025-02-09T16:55:56.313] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-02-09T16:55:56.315] [DEBUG] debug-file - default@CompileArkTS work[1] has been dispatched to worker[0].
+[2025-02-09T16:55:58.339] [DEBUG] debug-file - worker[6] has one work done.
+[2025-02-09T16:55:58.340] [DEBUG] debug-file - default@CacheNativeLibs work[4] done.
+[2025-02-09T16:55:58.340] [INFO] debug-file - Finished :entry:default@CacheNativeLibs... after 2 s 345 ms 
+[2025-02-09T16:56:17.257] [INFO] debug-file - [33mWARN: [33mArkTS:WARN File: /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/ets/entryability/EntryAbility.ets:55:5
+ "globalThis" is not supported (arkts-no-globalthis)
+[39m
+[33mWARN: [33mArkTS:WARN File: /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/ets/wxChatPages/wxChatList/controller/wxChatPage.ets:326:41
+ 'Function.bind' is not supported (arkts-no-func-bind)
+[39m
+[33mWARN: [33mArkTS:WARN File: /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/ets/wxChatPages/wxAddressBook/controller/wxAddFriendsPage.ets:94:44
+ 'Function.bind' is not supported (arkts-no-func-bind)
+[39m
+[33mWARN: [33mArkTS:WARN File: /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/ets/wxChatPages/wxAddressBook/controller/wxAddressUserInfoPage.ets:128:41
+ 'Function.bind' is not supported (arkts-no-func-bind)
+[39m
+[33mWARN: [33mArkTS:WARN File: /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/ets/wxChatPages/wxMine/controller/wxChangeUserInfoPage.ets:136:36
+ 'Function.bind' is not supported (arkts-no-func-bind)
+[39m
+[33mWARN: [33mArkTS:WARN File: /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/ets/wxChatPages/wxChatList/controller/wxSearchPage.ets:97:41
+ 'Function.bind' is not supported (arkts-no-func-bind)
+[39m
+[33mWARN: [33mArkTS:WARN File: /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/ets/wxChatPages/wxChatList/controller/wxChatListPage.ets:289:43
+ 'Function.bind' is not supported (arkts-no-func-bind)
+[39m
+[33mWARN: [33mArkTS:WARN File: /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/ets/wxChatPages/wxBase/TabPage.ets:50:53
+ 'Function.bind' is not supported (arkts-no-func-bind)
+[39m
+[33mWARN: [33mArkTS:WARN File: /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/ets/wxChatPages/wxBase/TabPage.ets:55:56
+ 'Function.bind' is not supported (arkts-no-func-bind)
+[39m
+[33mWARN: [33mArkTS:WARN File: /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/ets/wxChatPages/wxBase/TabPage.ets:60:49
+ 'Function.bind' is not supported (arkts-no-func-bind)
+[39m
+[33mWARN: [33mArkTS:WARN File: /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/ets/wxChatPages/wxBase/TabPage.ets:65:49
+ 'Function.bind' is not supported (arkts-no-func-bind)
+[39m
+[33mWARN: [33mArkTS:WARN: For details about ArkTS syntax errors, see FAQs[39m
+[33mWARN: [33mArkTS:WARN File: /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/ets/wxChatPages/wxFind/views/FriendCircleListTICell.ets:201:14
+ 'key' can only be used for testing directories 
+[39m
+[33mWARN: [33mArkTS:WARN File: /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/ets/wxChatPages/wxAddressBook/controller/wxAddFriendsPage.ets:134:16
+ 'key' can only be used for testing directories 
+[39m
+[33mWARN: [33mArkTS:WARN File: /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/ets/wxChatPages/wxChatList/controller/wxSearchPage.ets:40:16
+ 'key' can only be used for testing directories 
+[39m
+
+[2025-02-09T16:56:17.259] [DEBUG] debug-file - Ark compile task finished.finished time is 1272083287573811
+[2025-02-09T16:56:17.259] [DEBUG] debug-file - worker[0] has one work done.
+[2025-02-09T16:56:17.342] [DEBUG] debug-file - default@CompileArkTS work[1] done.
+[2025-02-09T16:56:17.345] [INFO] debug-file - Finished :entry:default@CompileArkTS... after 21 s 123 ms 
+[2025-02-09T16:56:17.348] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:56:17.349] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:56:17.352] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2025-02-09T16:56:17.354] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.0352935791015625
+[2025-02-09T16:56:17.354] [DEBUG] debug-file - runTaskFromQueue task cost before running: 25 s 394 ms 
+[2025-02-09T16:56:17.355] [INFO] debug-file - Finished :entry:default@GeneratePkgModuleJson... after 3 ms 
+[2025-02-09T16:56:17.358] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:56:17.358] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:56:17.364] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2025-02-09T16:56:17.374] [DEBUG] debug-file - Use tool [/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB6/openharmony/toolchains/lib/app_packing_tool.jar]
+ [
+  'java',
+  '-Dfile.encoding=utf-8',
+  '-jar',
+  '/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB6/openharmony/toolchains/lib/app_packing_tool.jar',
+  '--mode',
+  'hap',
+  '--force',
+  'true',
+  '--lib-path',
+  '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/stripped_native_libs/default',
+  '--json-path',
+  '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/package/default/module.json',
+  '--resources-path',
+  '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/resources',
+  '--index-path',
+  '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/resources.index',
+  '--pack-info-path',
+  '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/outputs/default/pack.info',
+  '--out-path',
+  '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/outputs/default/entry-default-unsigned.hap',
+  '--ets-path',
+  '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/loader_out/default/ets'
+]
+[2025-02-09T16:56:17.377] [DEBUG] debug-file - default@PackageHap work[5] is submitted.
+[2025-02-09T16:56:17.378] [DEBUG] debug-file - default@PackageHap work[5] is pushed to ready queue.
+[2025-02-09T16:56:17.378] [DEBUG] debug-file - default@PackageHap work[5] is not dispatched.
+[2025-02-09T16:56:17.383] [DEBUG] debug-file - entry : default@PackageHap cost memory -0.313446044921875
+[2025-02-09T16:56:17.480] [DEBUG] debug-file - A work dispatched to worker[7] failed because unable to get work from ready queue.
+[2025-02-09T16:56:17.480] [DEBUG] debug-file - default@PackageHap work[5] has been dispatched to worker[6].
+[2025-02-09T16:56:17.487] [DEBUG] debug-file - current process  memoryUsage: {
+  rss: 682745856,
+  heapTotal: 67063808,
+  heapUsed: 62517928,
+  external: 2268309,
+  arrayBuffers: 50924
+} os memoryUsage :15.694091796875
+[2025-02-09T16:56:18.988] [DEBUG] debug-file - worker[6] has one work done.
+[2025-02-09T16:56:18.988] [DEBUG] debug-file - default@PackageHap work[5] done.
+[2025-02-09T16:56:18.988] [DEBUG] debug-file - A work dispatched to worker[6] failed because unable to get work from ready queue.
+[2025-02-09T16:56:18.989] [INFO] debug-file - Finished :entry:default@PackageHap... after 1 s 527 ms 
+[2025-02-09T16:56:18.991] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T16:56:18.991] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T16:56:18.993] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2025-02-09T16:56:19.178] [DEBUG] debug-file - java daemon socket received message:{"code":0,"message":"verify profile success"}
+[2025-02-09T16:56:19.186] [DEBUG] debug-file - java daemon socket close code:1000 reason:close by user
+[2025-02-09T16:56:20.621] [DEBUG] debug-file - java daemon socket received message:{"code":0,"message":"sign app success"}
+[2025-02-09T16:56:20.622] [DEBUG] debug-file - entry : default@SignHap cost memory 0.22637939453125
+[2025-02-09T16:56:20.622] [DEBUG] debug-file - runTaskFromQueue task cost before running: 28 s 661 ms 
+[2025-02-09T16:56:20.623] [INFO] debug-file - Finished :entry:default@SignHap... after 1 s 630 ms 
+[2025-02-09T16:56:20.625] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2025-02-09T16:56:20.626] [DEBUG] debug-file - entry : assembleHap cost memory 0.01181793212890625
+[2025-02-09T16:56:20.626] [DEBUG] debug-file - runTaskFromQueue task cost before running: 28 s 665 ms 
+[2025-02-09T16:56:20.628] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2025-02-09T16:56:20.631] [DEBUG] debug-file - BUILD SUCCESSFUL in 28 s 670 ms 
+[2025-02-09T16:56:20.633] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/AppScope/app.json5 cache by regenerate.
+[2025-02-09T16:56:20.635] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/module.json5 cache by regenerate.
+[2025-02-09T16:56:20.636] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/build-profile.json5 cache by regenerate.
+[2025-02-09T16:56:20.636] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build-profile.json5 cache by regenerate.
+[2025-02-09T16:56:20.636] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/resources/base/profile/main_pages.json cache by regenerate.
+[2025-02-09T16:56:20.637] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/hvigor/hvigor-config.json5 cache by regenerate.
+[2025-02-09T16:56:20.637] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/mock/mock-config.json5 cache by regenerate.
+[2025-02-09T16:56:20.637] [DEBUG] debug-file - Update task entry:default@PreBuild input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/oh-package.json5 cache by regenerate.
+[2025-02-09T16:56:20.637] [DEBUG] debug-file - Incremental task entry:default@PreBuild post-execution cost:6 ms .
+[2025-02-09T16:56:20.637] [DEBUG] debug-file - Update task entry:default@GenerateMetadata input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/module.json5 cache by regenerate.
+[2025-02-09T16:56:20.638] [DEBUG] debug-file - Update task entry:default@GenerateMetadata output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/hap_metadata/default/output_metadata.json cache.
+[2025-02-09T16:56:20.638] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata post-execution cost:1 ms .
+[2025-02-09T16:56:20.638] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/AppScope/app.json5 cache by regenerate.
+[2025-02-09T16:56:20.639] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/build-profile.json5 cache by regenerate.
+[2025-02-09T16:56:20.639] [DEBUG] debug-file - Update task entry:default@MergeProfile input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/module.json5 cache by regenerate.
+[2025-02-09T16:56:20.639] [DEBUG] debug-file - Update task entry:default@MergeProfile output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/merge_profile/default/module.json cache.
+[2025-02-09T16:56:20.639] [DEBUG] debug-file - Incremental task entry:default@MergeProfile post-execution cost:1 ms .
+[2025-02-09T16:56:20.639] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/AppScope/app.json5 cache by regenerate.
+[2025-02-09T16:56:20.639] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/build-profile.json5 cache by regenerate.
+[2025-02-09T16:56:20.640] [DEBUG] debug-file - Update task entry:default@CreateBuildProfile output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/generated/profile/default/BuildProfile.ets cache.
+[2025-02-09T16:56:20.640] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile post-execution cost:2 ms .
+[2025-02-09T16:56:20.641] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/loader/default/pkgContextInfo.json cache.
+[2025-02-09T16:56:20.641] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2025-02-09T16:56:20.641] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/build/cache/default/integrated_hsp/integratedHspCache.json cache.
+[2025-02-09T16:56:20.642] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2025-02-09T16:56:20.642] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/AppScope/app.json5 cache by regenerate.
+[2025-02-09T16:56:20.642] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/module.json5 cache by regenerate.
+[2025-02-09T16:56:20.642] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/build-profile.json5 cache by regenerate.
+[2025-02-09T16:56:20.642] [DEBUG] debug-file - Update task entry:default@MakePackInfo input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/resources/base/profile/backup_config.json cache by regenerate.
+[2025-02-09T16:56:20.643] [DEBUG] debug-file - Update task entry:default@MakePackInfo output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/outputs/default/pack.info cache.
+[2025-02-09T16:56:20.643] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo post-execution cost:2 ms .
+[2025-02-09T16:56:20.643] [DEBUG] debug-file - Update task entry:default@ProcessProfile input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/merge_profile/default/module.json cache by regenerate.
+[2025-02-09T16:56:20.643] [DEBUG] debug-file - Update task entry:default@ProcessProfile output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/process_profile/default/module.json cache.
+[2025-02-09T16:56:20.643] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile post-execution cost:1 ms .
+[2025-02-09T16:56:20.644] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB6/openharmony/toolchains/syscap_tool cache by regenerate.
+[2025-02-09T16:56:20.644] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB6/openharmony/ets/api/device-define cache by regenerate.
+[2025-02-09T16:56:20.646] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/syscap/default/rpcid.sc cache.
+[2025-02-09T16:56:20.646] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:3 ms .
+[2025-02-09T16:56:20.647] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/oh-package.json5 cache by regenerate.
+[2025-02-09T16:56:20.647] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/oh-package.json5 cache by regenerate.
+[2025-02-09T16:56:20.647] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/module.json5 cache by regenerate.
+[2025-02-09T16:56:20.648] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/router_map/default/temp-router-map.json cache.
+[2025-02-09T16:56:20.648] [DEBUG] debug-file - Update task entry:default@ProcessRouterMap output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/router_map/default/loader-router-map.json cache.
+[2025-02-09T16:56:20.648] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap post-execution cost:2 ms .
+[2025-02-09T16:56:20.648] [DEBUG] debug-file - Update task entry:default@ProcessResource output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/resConfig.json cache.
+[2025-02-09T16:56:20.648] [DEBUG] debug-file - Incremental task entry:default@ProcessResource post-execution cost:1 ms .
+[2025-02-09T16:56:20.652] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/mock/mock-config.json5 cache by regenerate.
+[2025-02-09T16:56:20.653] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/router_map/default/temp-router-map.json cache by regenerate.
+[2025-02-09T16:56:20.653] [DEBUG] debug-file - Update task entry:default@GenerateLoaderJson output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/loader/default/loader.json cache.
+[2025-02-09T16:56:20.653] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson post-execution cost:5 ms .
+[2025-02-09T16:56:20.653] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/build-profile.json5 cache by regenerate.
+[2025-02-09T16:56:20.654] [DEBUG] debug-file - Update task entry:default@ProcessLibs input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build-profile.json5 cache by regenerate.
+[2025-02-09T16:56:20.654] [DEBUG] debug-file - Update task entry:default@ProcessLibs output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/libs/default cache.
+[2025-02-09T16:56:20.654] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs post-execution cost:1 ms .
+[2025-02-09T16:56:20.655] [DEBUG] debug-file - Update task entry:default@CompileResource input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/resources cache by regenerate.
+[2025-02-09T16:56:20.683] [DEBUG] debug-file - Update task entry:default@CompileResource input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/AppScope/resources cache by regenerate.
+[2025-02-09T16:56:20.685] [DEBUG] debug-file - Update task entry:default@CompileResource input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/process_profile/default/module.json cache by regenerate.
+[2025-02-09T16:56:20.686] [DEBUG] debug-file - Update task entry:default@CompileResource input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/resConfig.json cache by regenerate.
+[2025-02-09T16:56:20.686] [DEBUG] debug-file - Update task entry:default@CompileResource output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default cache.
+[2025-02-09T16:56:20.707] [DEBUG] debug-file - Update task entry:default@CompileResource output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/generated/r/default/ResourceTable.h cache.
+[2025-02-09T16:56:20.707] [DEBUG] debug-file - Update task entry:default@CompileResource output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/generated/r/default cache.
+[2025-02-09T16:56:20.708] [DEBUG] debug-file - Incremental task entry:default@CompileResource post-execution cost:54 ms .
+[2025-02-09T16:56:20.709] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/loader/default cache by regenerate.
+[2025-02-09T16:56:20.709] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/resources/rawfile cache by regenerate.
+[2025-02-09T16:56:20.710] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/ResourceTable.txt cache by regenerate.
+[2025-02-09T16:56:20.711] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/module.json cache by regenerate.
+[2025-02-09T16:56:20.711] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/resources/base/profile cache by regenerate.
+[2025-02-09T16:56:20.711] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/main/ets cache by regenerate.
+[2025-02-09T16:56:20.726] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/generated/profile/default/BuildProfile.ets cache by regenerate.
+[2025-02-09T16:56:20.727] [DEBUG] debug-file - Update task entry:default@CompileArkTS input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/src/mock/mock-config.json5 cache by regenerate.
+[2025-02-09T16:56:20.728] [DEBUG] debug-file - Update task entry:default@CompileArkTS output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/loader_out/default/ets cache.
+[2025-02-09T16:56:20.729] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS post-execution cost:21 ms .
+[2025-02-09T16:56:20.730] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/loader/default cache by regenerate.
+[2025-02-09T16:56:20.730] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/resources/rawfile cache by regenerate.
+[2025-02-09T16:56:20.731] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/ResourceTable.txt cache by regenerate.
+[2025-02-09T16:56:20.731] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/module.json cache by regenerate.
+[2025-02-09T16:56:20.731] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/resources/base/profile cache by regenerate.
+[2025-02-09T16:56:20.732] [DEBUG] debug-file - Update task entry:default@BuildJS output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/loader_out/default/js cache.
+[2025-02-09T16:56:20.732] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:4 ms .
+[2025-02-09T16:56:20.733] [DEBUG] debug-file - Update task entry:default@DoNativeStrip input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/libs/default cache by regenerate.
+[2025-02-09T16:56:20.733] [DEBUG] debug-file - Update task entry:default@DoNativeStrip output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/stripped_native_libs/default cache.
+[2025-02-09T16:56:20.733] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip post-execution cost:1 ms .
+[2025-02-09T16:56:20.733] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/libs/default cache by regenerate.
+[2025-02-09T16:56:20.734] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/stripped_native_libs/default cache by regenerate.
+[2025-02-09T16:56:20.735] [DEBUG] debug-file - Update task entry:default@CacheNativeLibs output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/patch/default/base_native_libs.json cache.
+[2025-02-09T16:56:20.735] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs post-execution cost:3 ms .
+[2025-02-09T16:56:20.736] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/module.json cache by regenerate.
+[2025-02-09T16:56:20.736] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/package/default/module.json cache.
+[2025-02-09T16:56:20.737] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson post-execution cost:1 ms .
+[2025-02-09T16:56:20.737] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/stripped_native_libs/default cache by regenerate.
+[2025-02-09T16:56:20.737] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/module.json cache by regenerate.
+[2025-02-09T16:56:20.738] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/resources cache by regenerate.
+[2025-02-09T16:56:20.758] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/resources.index cache by regenerate.
+[2025-02-09T16:56:20.759] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/outputs/default/pack.info cache by regenerate.
+[2025-02-09T16:56:20.759] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/loader_out/default/ets cache by regenerate.
+[2025-02-09T16:56:20.759] [DEBUG] debug-file - Update task entry:default@PackageHap input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/generated/profile/default/BuildProfile.ets cache by regenerate.
+[2025-02-09T16:56:20.760] [DEBUG] debug-file - Update task entry:default@PackageHap output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/outputs/default/entry-default-unsigned.hap cache.
+[2025-02-09T16:56:20.760] [DEBUG] debug-file - Update task entry:default@PackageHap output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/outputs/default/mapping/sourceMaps.map cache.
+[2025-02-09T16:56:20.761] [DEBUG] debug-file - Incremental task entry:default@PackageHap post-execution cost:24 ms .
+[2025-02-09T16:56:20.761] [DEBUG] debug-file - Update task entry:default@SignHap input file:/Users/zange/Desktop/鸿蒙证书/WeChat_post_csr.cer cache by regenerate.
+[2025-02-09T16:56:20.762] [DEBUG] debug-file - Update task entry:default@SignHap input file:/Users/zange/Desktop/鸿蒙证书/wxChatDebug.p7b cache by regenerate.
+[2025-02-09T16:56:20.762] [DEBUG] debug-file - Update task entry:default@SignHap input file:/Users/zange/Desktop/鸿蒙证书/csr_ls110888_wxChat_post.p12 cache by regenerate.
+[2025-02-09T16:56:20.762] [DEBUG] debug-file - Update task entry:default@SignHap input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/outputs/default/entry-default-unsigned.hap cache by regenerate.
+[2025-02-09T16:56:20.762] [DEBUG] debug-file - Update task entry:default@SignHap output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/outputs/default/entry-default-signed.hap cache.
+[2025-02-09T16:56:20.762] [DEBUG] debug-file - Incremental task entry:default@SignHap post-execution cost:2 ms .
+[2025-02-09T16:56:20.793] [DEBUG] debug-file - Cleanup worker 6.
+[2025-02-09T16:56:20.793] [DEBUG] debug-file - Worker 6 has been cleaned up.
+[2025-02-09T16:56:20.793] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-02-09T16:56:20.794] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-02-09T16:56:20.794] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-02-09T16:56:20.796] [DEBUG] debug-file - java daemon socket close code:1000 reason:close by user
+[2025-02-09T16:56:20.803] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-09T16:56:20.804] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-09T16:56:20.804] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-02-09T16:56:20.805] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-02-09T16:56:20.822] [DEBUG] debug-file - worker[6] exits with exit code 1.
+[2025-02-09T17:17:47.378] [DEBUG] debug-file - java daemon tryConnect success
+[2025-02-09T17:17:46.727] [DEBUG] debug-file - env: nodejsVersion=v18.20.1
+[2025-02-09T17:17:46.768] [DEBUG] debug-file - env: daemon=true
+[2025-02-09T17:17:47.459] [DEBUG] debug-file - hvigor start cli arguments:{
+  prop: [
+    'module=entry@default',
+    'product=default',
+    'requiredDeviceType=phone'
+  ],
+  mode: 'module',
+  parallel: true,
+  incremental: true,
+  daemon: true,
+  _: [ 'assembleHap', '--analyze=normal' ]
+}
+[2025-02-09T17:17:46.731] [DEBUG] debug-file - env: hvigor-config.json5 content = {
+  modelVersion: '5.0.0',
+  dependencies: {},
+  execution: {},
+  logging: {},
+  debugging: {},
+  nodeOptions: {}
+}
+[2025-02-09T17:17:47.489] [DEBUG] debug-file - session manager: set active socket. socketId=RlxiTSu-mHblO-dKAAAB
+[2025-02-09T17:17:48.148] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-02-09T17:17:48.174] [DEBUG] debug-file - Hvigor init with startParameters:{
+  hvigorfileTypeCheck: false,
+  parallelExecution: true,
+  incrementalExecution: true,
+  printStackTrace: false,
+  daemon: true,
+  analyze: 0,
+  logLevel: Level { level: 20000, levelStr: 'INFO', colour: 'green' }
+}
+[2025-02-09T17:17:48.185] [DEBUG] debug-file - Cache service initialization finished in 11 ms 
+[2025-02-09T17:17:48.200] [DEBUG] debug-file - hvigorfile, resolving /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/hvigorfile.ts
+[2025-02-09T17:17:50.110] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-02-09T17:17:50.110] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-02-09T17:17:50.408] [DEBUG] debug-file - Start initialize project's product build option map with build mode debug.
+[2025-02-09T17:17:50.408] [DEBUG] debug-file - Picking option from product 'default' with build mode 'debug'.
+[2025-02-09T17:17:50.409] [DEBUG] debug-file - Product 'default' build option: {}
+[2025-02-09T17:17:50.409] [DEBUG] debug-file - End initialize project's product build option map with build mode 'debug'.
+[2025-02-09T17:17:50.413] [DEBUG] debug-file - Product 'default' using build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true
+  }
+} in this build.
+[2025-02-09T17:17:50.442] [DEBUG] debug-file - Local scan or download HarmonyOS sdk components toolchains,ets,js,native,previewer
+[2025-02-09T17:17:50.448] [DEBUG] debug-file - Local scan or download hmscore sdk components toolchains,ets,native
+[2025-02-09T17:17:50.458] [DEBUG] debug-file - Sdk init in 20 ms 
+[2025-02-09T17:17:50.491] [DEBUG] debug-file - Project task initialization takes 31 ms 
+[2025-02-09T17:17:50.492] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-02-09T17:17:50.492] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/hvigorfile.ts
+[2025-02-09T17:17:50.492] [DEBUG] debug-file - hvigorfile, resolve finished /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/hvigorfile.ts
+[2025-02-09T17:17:50.504] [DEBUG] debug-file - hvigorfile, resolving /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/hvigorfile.ts
+[2025-02-09T17:17:50.513] [DEBUG] debug-file - hvigorfile, require result:  { default: { plugins: [] } }
+[2025-02-09T17:17:50.514] [DEBUG] debug-file - hvigorfile, binding system plugins null
+[2025-02-09T17:17:50.529] [DEBUG] debug-file - Start initialize module-target build option map, moduleName=entry, buildMode=debug
+[2025-02-09T17:17:50.530] [DEBUG] debug-file - Target 'default' config: {}
+[2025-02-09T17:17:50.531] [DEBUG] debug-file - Target 'ohosTest' config: {}
+[2025-02-09T17:17:50.532] [DEBUG] debug-file - Module 'entry' target 'default' build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "debug"
+}
+[2025-02-09T17:17:50.532] [DEBUG] debug-file - Module 'entry' target 'ohosTest' build option: {
+  "debuggable": true,
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "default"
+}
+[2025-02-09T17:17:50.532] [DEBUG] debug-file - End initialize module-target build option map, moduleName=entry
+[2025-02-09T17:17:50.533] [DEBUG] debug-file - Module 'entry' target 'default' using build option: {
+  "debuggable": true,
+  "copyFrom": "default",
+  "strictMode": {
+    "caseSensitiveCheck": true
+  },
+  "name": "debug"
+} in this build.
+[2025-02-09T17:17:50.542] [DEBUG] debug-file - Module entry task initialization takes 5 ms 
+[2025-02-09T17:17:50.542] [DEBUG] debug-file - hvigorfile, binding custom plugins []
+[2025-02-09T17:17:50.542] [DEBUG] debug-file - hvigorfile, no custom plugins were found in /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/hvigorfile.ts
+[2025-02-09T17:17:50.542] [DEBUG] debug-file - hvigorfile, resolve finished /Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/hvigorfile.ts
+[2025-02-09T17:17:50.637] [DEBUG] debug-file - hvigorfile, resolve hvigorfile dependencies in 94 ms 
+[2025-02-09T17:17:50.638] [DEBUG] debug-file - project has submodules:entry
+[2025-02-09T17:17:50.640] [DEBUG] debug-file - start to load updatedOhPackageInfo to the disk
+[2025-02-09T17:17:50.647] [DEBUG] debug-file - load to the disk finished
+[2025-02-09T17:17:50.649] [DEBUG] debug-file - Module HarmonyOS Collected Dependency: 
+[2025-02-09T17:17:50.649] [DEBUG] debug-file - Module HarmonyOS's total dependency: 0
+[2025-02-09T17:17:50.653] [DEBUG] debug-file - Module entry Collected Dependency: 
+[2025-02-09T17:17:50.653] [DEBUG] debug-file - Module entry's total dependency: 0
+[2025-02-09T17:17:50.658] [DEBUG] debug-file - Configuration phase cost:2 s 467 ms 
+[2025-02-09T17:17:50.662] [DEBUG] debug-file - Configuration task cost before running: 2 s 508 ms 
+[2025-02-09T17:17:50.665] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:50.665] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:50.670] [DEBUG] debug-file - Executing task :entry:default@PreBuild
+[2025-02-09T17:17:50.678] [DEBUG] debug-file - Incremental task entry:default@PreBuild pre-execution cost: 6 ms .
+[2025-02-09T17:17:50.679] [DEBUG] debug-file - entry : default@PreBuild cost memory 0.2241973876953125
+[2025-02-09T17:17:50.680] [INFO] debug-file - UP-TO-DATE :entry:default@PreBuild...  
+[2025-02-09T17:17:50.682] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:50.682] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:50.685] [DEBUG] debug-file - Executing task :entry:default@GenerateMetadata
+[2025-02-09T17:17:50.687] [DEBUG] debug-file - Incremental task entry:default@GenerateMetadata pre-execution cost: 2 ms .
+[2025-02-09T17:17:50.687] [DEBUG] debug-file - entry : default@GenerateMetadata cost memory 0.14173126220703125
+[2025-02-09T17:17:50.688] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateMetadata...  
+[2025-02-09T17:17:50.690] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:50.690] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:50.691] [DEBUG] debug-file - Executing task :entry:default@ConfigureCmake
+[2025-02-09T17:17:50.691] [DEBUG] debug-file - Since there is no instance or instance is terminated, create a new worker pool.
+[2025-02-09T17:17:50.692] [DEBUG] debug-file - Worker pool is initialized with config:  {
+  minPoolNum: 2,
+  maxPoolNum: undefined,
+  maxCoreSize: undefined,
+  cacheCapacity: undefined,
+  cacheTtl: undefined
+}
+[2025-02-09T17:17:50.693] [DEBUG] debug-file - Create  resident worker with id: 0.
+[2025-02-09T17:17:50.696] [DEBUG] debug-file - Create  resident worker with id: 1.
+[2025-02-09T17:17:50.699] [DEBUG] debug-file - entry : default@ConfigureCmake cost memory 0.49083709716796875
+[2025-02-09T17:17:50.700] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 545 ms 
+[2025-02-09T17:17:50.700] [INFO] debug-file - Finished :entry:default@ConfigureCmake... after 9 ms 
+[2025-02-09T17:17:50.704] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:50.704] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:50.706] [DEBUG] debug-file - Executing task :entry:default@MergeProfile
+[2025-02-09T17:17:50.708] [DEBUG] debug-file - Incremental task entry:default@MergeProfile pre-execution cost: 2 ms .
+[2025-02-09T17:17:50.708] [DEBUG] debug-file - entry : default@MergeProfile cost memory 0.0878753662109375
+[2025-02-09T17:17:50.709] [INFO] debug-file - UP-TO-DATE :entry:default@MergeProfile...  
+[2025-02-09T17:17:50.711] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:50.711] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:50.712] [DEBUG] debug-file - Executing task :entry:default@CreateBuildProfile
+[2025-02-09T17:17:50.716] [DEBUG] debug-file - Incremental task entry:default@CreateBuildProfile pre-execution cost: 3 ms .
+[2025-02-09T17:17:50.716] [DEBUG] debug-file - entry : default@CreateBuildProfile cost memory 0.10788726806640625
+[2025-02-09T17:17:50.717] [INFO] debug-file - UP-TO-DATE :entry:default@CreateBuildProfile...  
+[2025-02-09T17:17:50.722] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:50.722] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:50.724] [DEBUG] debug-file - Executing task :entry:default@PreCheckSyscap
+[2025-02-09T17:17:50.724] [DEBUG] debug-file - entry : default@PreCheckSyscap cost memory 0.01354217529296875
+[2025-02-09T17:17:50.725] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 570 ms 
+[2025-02-09T17:17:50.725] [INFO] debug-file - Finished :entry:default@PreCheckSyscap... after 1 ms 
+[2025-02-09T17:17:50.728] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:50.729] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:50.745] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgContextInfo
+[2025-02-09T17:17:50.746] [DEBUG] debug-file - entry : default@GeneratePkgContextInfo cost memory 0.02092742919921875
+[2025-02-09T17:17:50.746] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 592 ms 
+[2025-02-09T17:17:50.747] [INFO] debug-file - Finished :entry:default@GeneratePkgContextInfo... after 2 ms 
+[2025-02-09T17:17:50.750] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:50.751] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:50.756] [DEBUG] debug-file - Executing task :entry:default@ProcessIntegratedHsp
+[2025-02-09T17:17:50.758] [DEBUG] debug-file - entry:default@ProcessIntegratedHsp is not up-to-date, since the output file '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/build/cache/default/integrated_hsp/integratedHspCache.json' does not exist.
+[2025-02-09T17:17:50.758] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp pre-execution cost: 2 ms .
+[2025-02-09T17:17:50.758] [DEBUG] debug-file - entry : default@ProcessIntegratedHsp cost memory 0.08762359619140625
+[2025-02-09T17:17:50.759] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 604 ms 
+[2025-02-09T17:17:50.760] [INFO] debug-file - Finished :entry:default@ProcessIntegratedHsp... after 3 ms 
+[2025-02-09T17:17:50.763] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:50.763] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:50.765] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithCmake
+[2025-02-09T17:17:50.766] [DEBUG] debug-file - entry : default@BuildNativeWithCmake cost memory 0.01450347900390625
+[2025-02-09T17:17:50.766] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 611 ms 
+[2025-02-09T17:17:50.766] [INFO] debug-file - Finished :entry:default@BuildNativeWithCmake... after 1 ms 
+[2025-02-09T17:17:50.770] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:50.770] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:50.771] [DEBUG] debug-file - Executing task :entry:default@MakePackInfo
+[2025-02-09T17:17:50.775] [DEBUG] debug-file - Incremental task entry:default@MakePackInfo pre-execution cost: 3 ms .
+[2025-02-09T17:17:50.775] [DEBUG] debug-file - entry : default@MakePackInfo cost memory 0.1371307373046875
+[2025-02-09T17:17:50.776] [INFO] debug-file - UP-TO-DATE :entry:default@MakePackInfo...  
+[2025-02-09T17:17:50.780] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:50.780] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:50.783] [DEBUG] debug-file - Executing task :entry:default@ProcessProfile
+[2025-02-09T17:17:50.784] [DEBUG] debug-file - Incremental task entry:default@ProcessProfile pre-execution cost: 1 ms .
+[2025-02-09T17:17:50.784] [DEBUG] debug-file - entry : default@ProcessProfile cost memory 0.05200958251953125
+[2025-02-09T17:17:50.784] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessProfile...  
+[2025-02-09T17:17:50.788] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:50.788] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:50.790] [DEBUG] debug-file - Executing task :entry:default@SyscapTransform
+[2025-02-09T17:17:50.807] [DEBUG] debug-file - entry:default@SyscapTransform is not up-to-date, since the output file '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/syscap/default/rpcid.sc' does not exist.
+[2025-02-09T17:17:50.807] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform pre-execution cost: 17 ms .
+[2025-02-09T17:17:50.807] [DEBUG] debug-file - entry : default@SyscapTransform cost memory 0.0848846435546875
+[2025-02-09T17:17:50.807] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 653 ms 
+[2025-02-09T17:17:50.808] [INFO] debug-file - Finished :entry:default@SyscapTransform... after 18 ms 
+[2025-02-09T17:17:50.810] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:50.810] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:50.814] [DEBUG] debug-file - Executing task :entry:default@ProcessRouterMap
+[2025-02-09T17:17:50.818] [DEBUG] debug-file - Incremental task entry:default@ProcessRouterMap pre-execution cost: 3 ms .
+[2025-02-09T17:17:50.819] [DEBUG] debug-file - entry : default@ProcessRouterMap cost memory 0.13379669189453125
+[2025-02-09T17:17:50.820] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessRouterMap...  
+[2025-02-09T17:17:50.822] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:50.822] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:50.823] [DEBUG] debug-file - Executing task :entry:default@BuildNativeWithNinja
+[2025-02-09T17:17:50.825] [DEBUG] debug-file - entry : default@BuildNativeWithNinja cost memory 0.03040313720703125
+[2025-02-09T17:17:50.825] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 671 ms 
+[2025-02-09T17:17:50.825] [INFO] debug-file - Finished :entry:default@BuildNativeWithNinja... after 2 ms 
+[2025-02-09T17:17:50.828] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:50.829] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:50.830] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@ProcessResource
+[2025-02-09T17:17:50.835] [DEBUG] debug-file - Executing task :entry:default@ProcessResource
+[2025-02-09T17:17:50.836] [DEBUG] debug-file - Incremental task entry:default@ProcessResource pre-execution cost: 1 ms .
+[2025-02-09T17:17:50.836] [DEBUG] debug-file - entry : default@ProcessResource cost memory 0.10010528564453125
+[2025-02-09T17:17:50.844] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessResource...  
+[2025-02-09T17:17:50.853] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:50.853] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:50.859] [DEBUG] debug-file - Executing task :entry:default@GenerateLoaderJson
+[2025-02-09T17:17:50.886] [DEBUG] debug-file - Incremental task entry:default@GenerateLoaderJson pre-execution cost: 9 ms .
+[2025-02-09T17:17:50.886] [DEBUG] debug-file - entry : default@GenerateLoaderJson cost memory 0.37802886962890625
+[2025-02-09T17:17:50.889] [INFO] debug-file - UP-TO-DATE :entry:default@GenerateLoaderJson...  
+[2025-02-09T17:17:50.891] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:50.891] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:50.894] [DEBUG] debug-file - Executing task :entry:default@ProcessLibs
+[2025-02-09T17:17:50.895] [DEBUG] debug-file - Incremental task entry:default@ProcessLibs pre-execution cost: 2 ms .
+[2025-02-09T17:17:50.896] [DEBUG] debug-file - entry : default@ProcessLibs cost memory 0.05742645263671875
+[2025-02-09T17:17:50.896] [INFO] debug-file - UP-TO-DATE :entry:default@ProcessLibs...  
+[2025-02-09T17:17:50.899] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:50.899] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:50.900] [DEBUG] debug-file - restool module names: entry; moduleName=entry, taskName=default@CompileResource
+[2025-02-09T17:17:50.904] [DEBUG] debug-file - Executing task :entry:default@CompileResource
+[2025-02-09T17:17:50.993] [DEBUG] debug-file - Incremental task entry:default@CompileResource pre-execution cost: 88 ms .
+[2025-02-09T17:17:50.994] [DEBUG] debug-file - entry : default@CompileResource cost memory 4.793037414550781
+[2025-02-09T17:17:50.995] [INFO] debug-file - UP-TO-DATE :entry:default@CompileResource...  
+[2025-02-09T17:17:50.997] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:50.997] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:51.000] [DEBUG] debug-file - Executing task :entry:default@DoNativeStrip
+[2025-02-09T17:17:51.002] [DEBUG] debug-file - Incremental task entry:default@DoNativeStrip pre-execution cost: 1 ms .
+[2025-02-09T17:17:51.002] [DEBUG] debug-file - entry : default@DoNativeStrip cost memory 0.04489898681640625
+[2025-02-09T17:17:51.003] [INFO] debug-file - UP-TO-DATE :entry:default@DoNativeStrip...  
+[2025-02-09T17:17:51.005] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:51.005] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:51.008] [DEBUG] debug-file - Executing task :entry:default@CompileArkTS
+[2025-02-09T17:17:51.025] [DEBUG] debug-file - Incremental task entry:default@CompileArkTS pre-execution cost: 13 ms .
+[2025-02-09T17:17:51.025] [DEBUG] debug-file - entry : default@CompileArkTS cost memory 1.1387481689453125
+[2025-02-09T17:17:51.027] [INFO] debug-file - UP-TO-DATE :entry:default@CompileArkTS...  
+[2025-02-09T17:17:51.030] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:51.030] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:51.034] [DEBUG] debug-file - Executing task :entry:default@BuildJS
+[2025-02-09T17:17:51.037] [DEBUG] debug-file - entry : default@BuildJS cost memory 0.1165008544921875
+[2025-02-09T17:17:51.037] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 883 ms 
+[2025-02-09T17:17:51.037] [INFO] debug-file - Finished :entry:default@BuildJS... after 3 ms 
+[2025-02-09T17:17:51.039] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:51.039] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:51.041] [DEBUG] debug-file - Executing task :entry:default@CacheNativeLibs
+[2025-02-09T17:17:51.042] [DEBUG] debug-file - Incremental task entry:default@CacheNativeLibs pre-execution cost: 1 ms .
+[2025-02-09T17:17:51.042] [DEBUG] debug-file - entry : default@CacheNativeLibs cost memory 0.0519561767578125
+[2025-02-09T17:17:51.042] [INFO] debug-file - UP-TO-DATE :entry:default@CacheNativeLibs...  
+[2025-02-09T17:17:51.044] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:51.044] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:51.046] [DEBUG] debug-file - Executing task :entry:default@GeneratePkgModuleJson
+[2025-02-09T17:17:51.051] [DEBUG] debug-file - entry:default@GeneratePkgModuleJson is not up-to-date, since the output file '/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/package/default/module.json' has been changed.
+[2025-02-09T17:17:51.052] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson pre-execution cost: 2 ms .
+[2025-02-09T17:17:51.052] [DEBUG] debug-file - entry : default@GeneratePkgModuleJson cost memory 0.1896820068359375
+[2025-02-09T17:17:51.052] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 898 ms 
+[2025-02-09T17:17:51.052] [INFO] debug-file - Finished :entry:default@GeneratePkgModuleJson... after 7 ms 
+[2025-02-09T17:17:51.055] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:51.055] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:51.060] [DEBUG] debug-file - Executing task :entry:default@PackageHap
+[2025-02-09T17:17:51.087] [DEBUG] debug-file - Incremental task entry:default@PackageHap pre-execution cost: 25 ms .
+[2025-02-09T17:17:51.087] [DEBUG] debug-file - entry : default@PackageHap cost memory -8.562965393066406
+[2025-02-09T17:17:51.088] [INFO] debug-file - UP-TO-DATE :entry:default@PackageHap...  
+[2025-02-09T17:17:51.090] [DEBUG] debug-file - jsonObjWithoutParam {} at undefined
+[2025-02-09T17:17:51.090] [DEBUG] debug-file - jsonObjWithoutParam {"name":"entry","version":"1.0.0","description":"Please describe the basic information.","main":"","author":"","license":"","dependencies":{}} at undefined
+[2025-02-09T17:17:51.091] [DEBUG] debug-file - Executing task :entry:default@SignHap
+[2025-02-09T17:17:51.093] [DEBUG] debug-file - Incremental task entry:default@SignHap pre-execution cost: 1 ms .
+[2025-02-09T17:17:51.093] [DEBUG] debug-file - entry : default@SignHap cost memory 0.10309600830078125
+[2025-02-09T17:17:51.094] [INFO] debug-file - UP-TO-DATE :entry:default@SignHap...  
+[2025-02-09T17:17:51.096] [DEBUG] debug-file - Executing task :entry:assembleHap
+[2025-02-09T17:17:51.097] [DEBUG] debug-file - entry : assembleHap cost memory 0.0118408203125
+[2025-02-09T17:17:51.097] [DEBUG] debug-file - runTaskFromQueue task cost before running: 2 s 942 ms 
+[2025-02-09T17:17:51.097] [INFO] debug-file - Finished :entry:assembleHap... after 1 ms 
+[2025-02-09T17:17:51.099] [DEBUG] debug-file - BUILD SUCCESSFUL in 2 s 945 ms 
+[2025-02-09T17:17:51.101] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PreBuild is up-to-date.
+[2025-02-09T17:17:51.101] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateMetadata is up-to-date.
+[2025-02-09T17:17:51.101] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MergeProfile is up-to-date.
+[2025-02-09T17:17:51.101] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CreateBuildProfile is up-to-date.
+[2025-02-09T17:17:51.102] [DEBUG] debug-file - Update task entry:default@GeneratePkgContextInfo output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/loader/default/pkgContextInfo.json cache.
+[2025-02-09T17:17:51.102] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgContextInfo post-execution cost:1 ms .
+[2025-02-09T17:17:51.103] [DEBUG] debug-file - Update task entry:default@ProcessIntegratedHsp output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/build/cache/default/integrated_hsp/integratedHspCache.json cache.
+[2025-02-09T17:17:51.103] [DEBUG] debug-file - Incremental task entry:default@ProcessIntegratedHsp post-execution cost:1 ms .
+[2025-02-09T17:17:51.103] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@MakePackInfo is up-to-date.
+[2025-02-09T17:17:51.103] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessProfile is up-to-date.
+[2025-02-09T17:17:51.103] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB6/openharmony/toolchains/syscap_tool cache by regenerate.
+[2025-02-09T17:17:51.103] [DEBUG] debug-file - Update task entry:default@SyscapTransform input file:/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB6/openharmony/ets/api/device-define cache by regenerate.
+[2025-02-09T17:17:51.103] [DEBUG] debug-file - Update task entry:default@SyscapTransform output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/syscap/default/rpcid.sc cache.
+[2025-02-09T17:17:51.104] [DEBUG] debug-file - Incremental task entry:default@SyscapTransform post-execution cost:1 ms .
+[2025-02-09T17:17:51.104] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessRouterMap is up-to-date.
+[2025-02-09T17:17:51.104] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessResource is up-to-date.
+[2025-02-09T17:17:51.104] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@GenerateLoaderJson is up-to-date.
+[2025-02-09T17:17:51.104] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@ProcessLibs is up-to-date.
+[2025-02-09T17:17:51.104] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CompileResource is up-to-date.
+[2025-02-09T17:17:51.104] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@DoNativeStrip is up-to-date.
+[2025-02-09T17:17:51.104] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CompileArkTS is up-to-date.
+[2025-02-09T17:17:51.105] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/loader/default cache by regenerate.
+[2025-02-09T17:17:51.105] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/resources/rawfile cache by regenerate.
+[2025-02-09T17:17:51.105] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/ResourceTable.txt cache by regenerate.
+[2025-02-09T17:17:51.106] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/module.json cache by regenerate.
+[2025-02-09T17:17:51.106] [DEBUG] debug-file - Update task entry:default@BuildJS input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/resources/base/profile cache by regenerate.
+[2025-02-09T17:17:51.106] [DEBUG] debug-file - Update task entry:default@BuildJS output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/loader_out/default/js cache.
+[2025-02-09T17:17:51.106] [DEBUG] debug-file - Incremental task entry:default@BuildJS post-execution cost:3 ms .
+[2025-02-09T17:17:51.106] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@CacheNativeLibs is up-to-date.
+[2025-02-09T17:17:51.106] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson input file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/res/default/module.json cache by regenerate.
+[2025-02-09T17:17:51.106] [DEBUG] debug-file - Update task entry:default@GeneratePkgModuleJson output file:/Users/zange/Desktop/Dandelion/HarmonyOS_GitHub/HarmonyOS/entry/build/default/intermediates/package/default/module.json cache.
+[2025-02-09T17:17:51.107] [DEBUG] debug-file - Incremental task entry:default@GeneratePkgModuleJson post-execution cost:1 ms .
+[2025-02-09T17:17:51.107] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@PackageHap is up-to-date.
+[2025-02-09T17:17:51.107] [DEBUG] debug-file - There is no need to refresh cache, since the incremental task entry:default@SignHap is up-to-date.
+[2025-02-09T17:17:51.130] [DEBUG] debug-file - Cleanup worker 0.
+[2025-02-09T17:17:51.131] [DEBUG] debug-file - Worker 0 has been cleaned up.
+[2025-02-09T17:17:51.131] [DEBUG] debug-file - Current idle worker size: 1.
+[2025-02-09T17:17:51.131] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-02-09T17:17:51.131] [DEBUG] debug-file - Cleanup worker 1.
+[2025-02-09T17:17:51.131] [DEBUG] debug-file - Worker 1 has been cleaned up.
+[2025-02-09T17:17:51.131] [DEBUG] debug-file - Current idle worker size: 0.
+[2025-02-09T17:17:51.131] [DEBUG] debug-file - Current resident worker size: 2.
+[2025-02-09T17:17:51.132] [DEBUG] debug-file - hvigor build process will be closed.
+[2025-02-09T17:17:51.270] [DEBUG] debug-file - worker[0] exits with exit code 1.
+[2025-02-09T17:17:51.270] [DEBUG] debug-file - worker[1] exits with exit code 1.
+[2025-02-09T17:17:51.320] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-09T17:17:51.320] [DEBUG] debug-file - session manager: send message to worker process.
+[2025-02-09T17:17:51.320] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
+[2025-02-09T17:17:51.320] [DEBUG] debug-file - watch worker: worker id should be larger than 0. Nothing will be sent to any worker thread.
