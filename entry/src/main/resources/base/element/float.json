@@ -1,0 +1,20 @@
+{
+  "float": [
+    {
+      "name": "wxChatListCellHeight",
+      "value": "74"
+    },
+    {
+      "name": "wxChatListCellHeadImageH",
+      "value": "48"
+    },
+    {
+      "name": "wxChatListCellHeadImageW",
+      "value": "48"
+    },
+    {
+      "name": "wxChatListCellHeadImageRadius",
+      "value": "6"
+    }
+  ]
+}

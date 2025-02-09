@@ -1,0 +1,6 @@
+# wxChat_HarmonyOS
+
+一. 介绍
+  1. 项目使用 Harmony OS 5.0、 API 12 、ComponentV2。
+  2. 项目使用DevEco Studio NEXT及其更高版本编译器。
+  3. 高仿微信聊天，朋友圈，relationalStore数据库存储数据。

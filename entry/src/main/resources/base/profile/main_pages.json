@@ -1,0 +1,7 @@
+{
+  "src": [
+    "pages/Index",
+    "wxChatPages/wxBase/wxTabPage",
+    "wxChatPages/wxBase/TabPage"
+  ]
+}

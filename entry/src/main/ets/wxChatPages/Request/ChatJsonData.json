@@ -1,0 +1,173 @@
+{
+  "wxMineDataList": [
+    [
+      {
+        "image": "app.media.t06",
+        "title": "服务"
+      }
+    ],
+    [
+      {
+        "image": "app.media.t07",
+        "title": "收藏"
+      },
+      {
+        "image": "app.media.t01",
+        "title": "朋友圈"
+      },
+      {
+        "image": "app.media.t10",
+        "title": "卡包"
+      },
+      {
+        "image": "app.media.t09",
+        "title": "表情"
+      }
+    ],
+    [
+      {
+        "image": "app.media.t04",
+        "title": "设置"
+      }
+    ]
+  ],
+  "wxChatListHeadData": [
+    {
+      "headImage": "app.media.zange",
+      "nickName": "赞歌",
+      "userDesc": "1108是我的生日",
+      "date": "12:00"
+    },
+    {
+      "headImage": "app.media.tingting",
+      "nickName": "沧浪",
+      "userDesc": "IFAA接口好了，可以调试了。",
+      "date": "13:14"
+    },
+    {
+      "headImage": "app.media.pengpeng",
+      "nickName": "康鹏鹏",
+      "userDesc": "帅，帮个忙代码帮我合一下哈。",
+      "date": "10:20"
+    }
+  ],
+  "wxChatListData": [
+    {
+      "headImage": "app.media.zange",
+      "nickName": "赞歌",
+      "userDesc": "1108是我的生日",
+      "date": "12:00"
+    },
+    {
+      "headImage": "app.media.tingting",
+      "nickName": "沧浪",
+      "userDesc": "IFAA接口好了，可以调试了。",
+      "date": "13:14"
+    },
+    {
+      "headImage": "app.media.pengpeng",
+      "nickName": "康鹏鹏",
+      "userDesc": "帅，帮个忙代码帮我合一下哈。",
+      "date": "10:20"
+    },
+    {
+      "headImage": "app.media.huige",
+      "nickName": "朱辉老师",
+      "userDesc": "[文件]推送场景映射表20231108.xlsx",
+      "date": "昨天 12:00"
+    },
+    {
+      "headImage": "app.media.qiangge",
+      "nickName": "汪大强",
+      "userDesc": "好嘞",
+      "date": "周一"
+    },
+    {
+      "headImage": "app.media.nituwang",
+      "nickName": "在路上",
+      "userDesc": "粗繒大布裹生涯，腹有诗书气自华。",
+      "date": "11月12日"
+    },
+    {
+      "headImage": "app.media.shejipai",
+      "nickName": "微微一笑很倾城",
+      "userDesc": "芦苇微微vs一笑奈何",
+      "date": "18:33"
+    },
+    {
+      "headImage": "app.media.shejipai",
+      "nickName": "浪漫的土耳其",
+      "userDesc": "我想要带你去浪漫的土耳其。",
+      "date": "19:31"
+    },
+    {
+      "headImage": "app.media.shejizhijia",
+      "nickName": "设计之家",
+      "userDesc": "设计之家与您共建美好家园。",
+      "date": "12:56"
+    },
+    {
+      "headImage": "app.media.siyuansheji",
+      "nickName": "思念是病",
+      "userDesc": "思念是一种很玄的东西，如影随形。",
+      "date": "15:55"
+    },
+    {
+      "headImage": "app.media.tuyiwang",
+      "nickName": "青年文摘",
+      "userDesc": "先帝创业未半，蹦迪花光预算。",
+      "date": "12:47"
+    },
+    {
+      "headImage": "app.media.UIzhongguo",
+      "nickName": "国家博物馆",
+      "userDesc": "北京市-中国国家博物馆",
+      "date": "周日"
+    },
+    {
+      "headImage": "app.media.wall_haven",
+      "nickName": "纳兰丹青",
+      "userDesc": "端庄秀丽，温文尔雅。",
+      "date": "周六"
+    },
+    {
+      "headImage": "app.media.zitibao",
+      "nickName": "小红书",
+      "userDesc": "小红书记录生活的点点滴滴。",
+      "date": "周二 12:00"
+    },
+    {
+      "headImage": "app.media.siyuansheji",
+      "nickName": "思念是病",
+      "userDesc": "思念是一种很玄的东西，如影随形。",
+      "date": "周三 13:14"
+    },
+    {
+      "headImage": "app.media.tuyiwang",
+      "nickName": "青年文摘",
+      "userDesc": "先帝创业未半，蹦迪花光预算。",
+      "date": "上周五"
+    },
+    {
+      "headImage": "app.media.shejizhijia",
+      "nickName": "设计之家",
+      "userDesc": "设计之家与您共建美好家园。",
+      "date": "三个月前"
+    },
+    {
+      "headImage": "app.media.siyuansheji",
+      "nickName": "思念是病",
+      "userDesc": "思念是一种很玄的东西，如影随形。",
+      "date": "四个月前"
+    }
+  ],
+
+
+
+  "server": {
+    "Index": "http://localhost:5050/wxChatListData",
+    "Static files": "Serving ./public directory if it exists",
+    "Endpoints": "http://localhost:5050/wxChatListdata",
+    "模拟器WLAN": "192.168.76.9:39507"
+  }
+}

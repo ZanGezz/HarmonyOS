@@ -1,0 +1,100 @@
+{
+  "color": [
+    {
+      "name": "start_window_background",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "wxWhiteColor",
+      "value": "#FFFFFF"
+    },
+    {
+      "name": "wxTransparent",
+      "value": "#00FFFFFF"
+    },
+    {
+      "name": "Color_237",
+      "value": "#FFEDEDED"
+    },
+    {
+      "name": "Color_31",
+      "value": "#FF1F1F1F"
+    },
+    {
+      "name": "Color_77",
+      "value": "#FF4D4D4D"
+    },
+    {
+      "name": "Color_Tab_select",
+      "value": "#FF48CA46"
+    },
+    {
+      "name": "Color_179",
+      "value": "#FFB3B3B3"
+    },
+    {
+      "name": "Color_210",
+      "value": "#FFD2D2D2"
+    },
+    {
+      "name": "Color_220",
+      "value": "#FFDCDCDC"
+    },
+    {
+      "name": "Color_139",
+      "value": "#FF8B8B8B"
+    },
+    {
+      "name": "Color_114",
+      "value": "#FF727272"
+    },
+    {
+      "name": "Color_100",
+      "value": "#FF646464"
+    },
+    {
+      "name": "Color_246",
+      "value": "#FFF6F6F6"
+    },
+    {
+      "name": "Color_241",
+      "value": "#FFE6E6E6"
+    },
+    {
+      "name": "Color_89_96_134",
+      "value": "#FF596086"
+    },
+    {
+      "name": "Color_92_107_141",
+      "value": "#FF5C6B8D"
+    },
+    {
+      "name": "Color_200_109_103",
+      "value": "#FFDA655F"
+    },
+    {
+      "name": "Color_230_94_87",
+      "value": "#FFE75E57"
+    },
+    {
+      "name": "Color_237_159_80",
+      "value": "#FFED9F50"
+    },
+    {
+      "name": "Color_57_133_230",
+      "value": "#FF3985E6"
+    },
+    {
+      "name": "Color_169_231_122",
+      "value": "#FFA9E77A"
+    },
+    {
+      "name": "Color_115_116_122",
+      "value": "#FF73BB74"
+    },
+    {
+      "name": "Color_89_96_1341",
+      "value": "#FF5B8C50"
+    }
+  ]
+}

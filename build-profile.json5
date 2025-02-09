@@ -1,0 +1,54 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storePassword": "00000018EA52E8B4159DAAF5720D8E3A167065A06DD6EAC3C8AF201E091BA2E4E3EA1E6601C79EBE",
+          "certpath": "/Users/zange/Desktop/鸿蒙证书/WeChat_post_csr.cer",
+          "keyAlias": "wxChat_post",
+          "keyPassword": "00000018A4F19ABF90450330FB5CC1F6AD97CB55B34BEEFCB52E0740CAE24BDD4BE185DED866B22C",
+          "profile": "/Users/zange/Desktop/鸿蒙证书/wxChatDebug.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/zange/Desktop/鸿蒙证书/csr_ls110888_wxChat_post.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ],
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
